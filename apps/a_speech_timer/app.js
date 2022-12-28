@@ -167,6 +167,7 @@ function draw() {
 }
 
 require("FontHaxorNarrow7x17").add(Graphics);
+g.setTheme({bg:"#fff",fg:"#000",dark:false}).clear();
 g.clear();
 Bangle.loadWidgets();
 Bangle.drawWidgets();
